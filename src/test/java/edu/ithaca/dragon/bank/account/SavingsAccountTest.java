@@ -41,10 +41,10 @@ class SavingsAccountTest {
     }
 
     @Test
-    void withdrawInsufficientFundsTest() {
-        assertThrows(IllegalArgumentException.class, ()->{ savingsAccountWMoney.withdraw(-10); });
-        assertThrows(InsufficientFundsException.class, ()->{ savingsAccountWMoney.withdraw(35); });
-        assertThrows(InsufficientFundsException.class, ()->{ savingsAccountNoMoney.withdraw(0.01); });
+    void badWithdrawFundsTest() {
+        assertThrows(IllegalArgumentException.class, ()-> savingsAccountWMoney.withdraw(-10));
+        assertThrows(InsufficientFundsException.class, ()-> savingsAccountWMoney.withdraw(35));
+        assertThrows(InsufficientFundsException.class, ()-> savingsAccountNoMoney.withdraw(0.01));
     }
 
 
