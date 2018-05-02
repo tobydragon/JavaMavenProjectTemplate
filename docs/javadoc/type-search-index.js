@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"edu.ithaca.dragon.bank","l":"Bank"},{"p":"edu.ithaca.dragon.bank.io","l":"BankSerializer"},{"p":"edu.ithaca.dragon.bank","l":"InsufficientFundsException"},{"p":"edu.ithaca.dragon.bank.account","l":"SavingsAccount"}]
