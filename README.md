@@ -1,5 +1,8 @@
 # JavaMavenProjectTemplate
 
+## Sample javadoc
+https://tobydragon.github.io/JavaMavenProjectTemplate/index.html?overview-summary.html
+
 ## Database info and links
 - JDBC and SQLlite - http://www.sqlitetutorial.net/sqlite-java/
   - Maven dependency - https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc/3.21.0.1
